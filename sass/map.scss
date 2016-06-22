@@ -1,0 +1,34 @@
+.mapdiv {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 20px;
+}
+.stopmapdiv {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 0;
+}
+.bus_detail {
+  width: 60%;
+  margin-left: 20%;
+}
+
+@media screen and (max-width:770px) {
+  .bus_detail {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .stopmapdiv {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width:430px) {
+  .bus_detail {
+    width: 96%;
+    margin-left: 2%;
+  }
+  .stopmapdiv {
+    height: 150px;
+  }
+}

@@ -1,0 +1,374 @@
+.bus_dropdown, .subway_dropdown {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  padding: 10px; }
+
+.searchBus h1 {
+  color: white;
+  text-align: center; }
+
+.bus_detail .btn-group {
+  width: 100%;
+  margin-left: 0; }
+  .bus_detail .btn-group .btn {
+    width: 50%;
+    margin-left: 0 !important;
+    border-radius: 0; }
+
+.error_mes {
+  color: white;
+  text-align: center; }
+
+.btn-op {
+  text-align: center;
+  margin-left: 20%;
+  width: 60%; }
+
+.btn-op-cr {
+  text-align: center;
+  width: 100%; }
+
+@media screen and (max-width: 770px) {
+  .btn-op {
+    margin-left: 5%;
+    width: 90%; } }
+
+@media screen and (max-width: 430px) {
+  .bus_dropdown, .subway_dropdown {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 10px;
+    padding-top: 10px; }
+  .btn-op {
+    margin-left: 2%;
+    width: 96%; } }
+
+.fav-op {
+  width: 100%;
+  text-align: center; }
+  .fav-op button {
+    width: 33%;
+    margin-left: 0 !important; }
+  .fav-op .btn-middle {
+    width: 34%; }
+
+form {
+  background-color: #220022;
+  padding: 30px;
+  border-radius: 10px;
+  width: 70%;
+  margin-left: 15%; }
+  form .input-group {
+    margin-bottom: 20px; }
+  form .form-control {
+    border-radius: 0px 4px 4px 0px !important; }
+  form .dropdown {
+    text-align: center; }
+    form .dropdown .btn {
+      margin-left: 20px; }
+
+@media only screen and (max-width: 620px) {
+  form {
+    width: 90%;
+    margin-left: 5%; } }
+
+@media only screen and (max-width: 488px) {
+  form {
+    width: 98%;
+    margin-left: 1%;
+    padding: 15px; } }
+
+.header {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 20px; }
+
+.poster {
+  margin-left: 10%;
+  width: 80%;
+  margin-right: 10%;
+  height: auto;
+  margin-top: 25px; }
+
+@media screen and (max-width: 550px) {
+  .poster {
+    margin-left: 3%;
+    width: 94%;
+    margin-right: 3%; }
+  .header {
+    margin-top: 55px;
+    margin-bottom: 5px; }
+    .header h1 {
+      font-size: 30px; }
+    .header h4 {
+      font-size: 15px; }
+  .footer h3 {
+    font-size: 20px; } }
+
+.footer {
+  text-align: center;
+  color: white;
+  background-color: #330033;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  left: 0;
+  right: 0;
+  vertical-align: middle; }
+
+.image {
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 20px; }
+
+.mapdiv {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 20px; }
+
+.stopmapdiv {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 0; }
+
+.bus_detail {
+  width: 60%;
+  margin-left: 20%; }
+
+@media screen and (max-width: 770px) {
+  .bus_detail {
+    width: 90%;
+    margin-left: 5%; }
+  .stopmapdiv {
+    height: 250px; } }
+
+@media screen and (max-width: 430px) {
+  .bus_detail {
+    width: 96%;
+    margin-left: 2%; }
+  .stopmapdiv {
+    height: 150px; } }
+
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+  z-index: 100;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #330033;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  color: white; }
+  ul.topnav img {
+    width: 40px;
+    height: 40px;
+    margin-left: 3px;
+    margin-top: 3px; }
+
+/* Float the list items side by side */
+ul.topnav li {
+  float: left; }
+
+/* Style the links inside the list items */
+ul.topnav li a, .icon {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  padding-left: 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 20px; }
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+  background-color: #880088; }
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+  display: none; }
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width: 650px) {
+  ul.topnav li:not(:first-child) {
+    display: none; }
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block; } }
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width: 650px) {
+  ul.topnav.responsive {
+    position: fixed; }
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline; }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left; } }
+
+.subway_dropdown {
+  vertical-align: middle; }
+
+.searchSubway h1 {
+  color: white;
+  text-align: center; }
+
+.cr-header {
+  text-align: center;
+  color: white;
+  font-size: 1.2em; }
+
+.table {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  border-bottom: 2px solid black; }
+  .table td, .table th {
+    vertical-align: middle !important;
+    text-align: center !important; }
+  .table .single {
+    background-color: #f9f9f9; }
+
+#stop_table {
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+  margin-left: 20%;
+  width: 60%; }
+
+.bus_table {
+  margin-top: 0;
+  border-radius: 0 0 5px 5px; }
+  .bus_table thead {
+    background-color: #f9f9f9; }
+
+#subway_table, #bus-table {
+  margin-bottom: 100px;
+  padding-bottom: 100px; }
+
+@media screen and (max-width: 650px) {
+  #stop_table {
+    margin-bottom: 100px !important;
+    margin-left: 5%;
+    width: 90%; } }
+
+#timeline-error {
+  color: white;
+  text-align: center; }
+
+.timeline-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 1170px; }
+
+.timeline-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both; }
+
+#timeline {
+  position: relative;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%; }
+
+#timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 4px;
+  background: white;
+  margin-left: 2px; }
+
+.stopComponent {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 2em 0;
+  margin-top: 10px;
+  padding-left: 2px;
+  padding-bottom: 3px; }
+
+.stopComponent:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.stopComponent:first-child {
+  margin-top: 0; }
+
+.stopComponent:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+ul.stopComponent {
+  z-index: 10;
+  list-style-type: none;
+  overflow: hidden; }
+  ul.stopComponent li {
+    text-decoration: none;
+    color: white;
+    float: left; }
+
+.stopDot {
+  display: inline-block;
+  background: #440044;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 5px solid white;
+  margin-left: -16px; }
+
+.stopTime {
+  margin-top: -16px;
+  margin-left: 30%;
+  width: 10%;
+  text-align: right; }
+
+.stopName {
+  text-align: left;
+  margin-top: -16px;
+  width: 30%;
+  margin-left: 20%;
+  margin-right: 10%;
+  padding-right: 5px; }
+
+@media screen and (max-width: 500px) {
+  #timeline::before {
+    left: 40%; }
+  .stopDot {
+    left: 40%;
+    width: 36px;
+    height: 36px;
+    margin-left: -13px; }
+  .stopTime h3, .stopName h3 {
+    font-size: 20px; }
+  .stopTime {
+    width: 15%;
+    margin-left: 10%; }
+  .stopName {
+    margin-left: 30%;
+    width: 20%;
+    margin-right: 25%; } }

@@ -1,0 +1,50 @@
+.header {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.poster {
+  margin-left: 10%;
+  width: 80%;
+  margin-right: 10%;
+  height: auto;
+  margin-top: 25px;
+}
+
+@media screen and (max-width:550px) {
+  .poster {
+    margin-left: 3%;
+    width: 94%;
+    margin-right: 3%;
+  }
+  .header {
+    margin-top: 55px;
+    margin-bottom: 5px;
+    h1{
+      font-size: 30px;
+    }
+    h4 {
+      font-size: 15px;
+    }
+  }
+  .footer {
+    h3 {
+      font-size: 20px;
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  background-color: rgb(51, 0, 51);
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  left: 0;
+  right: 0;
+  vertical-align: middle;
+}

@@ -1,0 +1,34 @@
+form {
+  background-color: rgb(34, 0, 34);
+  padding: 30px;
+  border-radius: 10px;
+  width: 70%;
+  margin-left: 15%;
+  .input-group {
+    margin-bottom: 20px;
+  }
+  .form-control {
+    border-radius: 0px 4px 4px 0px !important;
+  }
+  .dropdown {
+    text-align: center;
+    .btn {
+      margin-left: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  form {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 488px) {
+  form {
+    width: 98%;
+    margin-left: 1%;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,56 @@
+.bus_dropdown, .subway_dropdown {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+  padding: 10px;
+}
+.searchBus h1 {
+  color: white;
+  text-align: center;
+}
+.bus_detail {
+  .btn-group {
+    width: 100%;
+    margin-left: 0;
+    .btn {
+      width: 50%;
+      margin-left: 0 !important;
+      border-radius: 0;
+    }
+  }
+}
+.error_mes {
+  color: white;
+  text-align: center;
+}
+.btn-op {
+  text-align: center;
+  margin-left: 20%;
+  width: 60%;
+}
+.btn-op-cr {
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width:770px) {
+  .btn-op {
+    margin-left: 5%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:430px) {
+  .bus_dropdown, .subway_dropdown {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .btn-op {
+    margin-left: 2%;
+    width: 96%;
+  }
+}
